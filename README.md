@@ -105,21 +105,24 @@ Since I didn't have enough colors I had to use black multiple times. If you have
 And here is how it should look like IRL:
 
 
-<img src="media/wiring_irl.png" width="60%"/>
+<img src="media/wiring1.jpg" width="60%"/>
+<img src="media/wiring2.jpg" width="60%"/>
+
 
 ## Routing the wires
 
 To route the wires I removed one of these gpu placeholder slots so I had enough space. 
 
-<img src="media/pc_routing.jpg"  width="60%"/>
+<img src="media/wiringbackpc.jpg"  width="60%"/>
 
 And here is how the wires look like when they are connected to the f-panel (sorry for the quality it's really hard to get a good picture since it's pretty cramped)
 
-<img src="media/f_panel_connected.jpg"  width="60%"/>
+<img src="media/wiring_fpanel.jpg"  width="60%"/>
 
 
 # Expected behaviour
 
 Now everything needs to be screwed together and is ready to test.
 
-The left toggle switch wired in series with the button, so the button will only work if it is turned on. The right toggle switch turns on and off the LED of the button. This is just in case you get disturbed by the light you can turn it off (maybe when watching a movie?).
+The first to switches should turn on the red light. The big red button should only work when both switches are on and the key is also in the ON position.
+The green LED will blink when the hard drive is being read or written.
